@@ -1,0 +1,43 @@
+.Contact{
+    margin: 20px auto;
+    text-align: center;
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 1px solid rgb(218, 218, 218);
+
+}
+
+.Contact input{
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.Contact label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+
+}
+.Contact input:focus {
+    outline: none;
+    background-color: #ccc;
+}
+.Contact select {
+    position: relative;
+    font-family: Arial;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+

@@ -1,0 +1,48 @@
+.Auth{
+    margin: 20px auto;
+    text-align: center;
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 1px solid rgb(180, 180, 180);
+
+}
+
+.Auth input{
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.Auth label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+
+}
+.Auth input:focus {
+    outline: none;
+    background-color: #ccc;
+}
+.Auth select {
+    position: relative;
+    font-family: Arial;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+
+@media (min-width:600px){
+    .Auth{
+        width: 500px;
+    }
+}
